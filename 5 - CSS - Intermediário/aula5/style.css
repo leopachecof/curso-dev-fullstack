@@ -1,0 +1,10 @@
+
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    /*overflow: scroll; (hidden: esconde tudo que estorar a caixa)
+    overflow-x: hidden; (esconde só a do eixo x)
+    */
+    overflow: auto;
+}

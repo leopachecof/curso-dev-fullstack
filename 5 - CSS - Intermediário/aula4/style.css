@@ -1,0 +1,30 @@
+/* AULA 3 e 4 FORAM OS MESMOS EXERCÍCIOS
+a {
+    width: 150px; (Tamanho não funciona para display inline)
+    height: 150px;
+    display: block; (Transforma o "a" em caixa, inclusive ocupa o espaço restante )
+}
+
+a {
+    width: 150px;
+    height: 150px;
+    display: inline-block; /*(Muda para liberar o espaço ao lado, se comporta como o inline)
+}
+*/
+
+body {
+    background: url(https://img.freepik.com/free-vector/elegant-watercolor-background_1409-1165.jpg?w=1060&t=st=1671133956~exp=1671134556~hmac=336d6871adf5ad625b6ff42fdd2be396994d87c5fbee3deb200fd22e12b93821);
+}
+
+ul {
+    background: gray;
+    padding: 20px;
+    opacity: 0.5;
+
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+
+}

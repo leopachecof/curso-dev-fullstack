@@ -1,0 +1,35 @@
+
+::selection {
+    color: blueviolet;
+    background: black;
+}
+
+p::first-line {
+    color: rgb(255, 189, 21);
+}
+
+p::first-letter {
+    color: rgb(255, 83, 21);
+    font-size: 50px ;
+}
+
+h1::before {
+    background: url(https://cdn-icons-png.flaticon.com/512/178/178158.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+
+}
+h1::after {
+    background: url(https://cdn-icons-png.flaticon.com/512/178/178158.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+
+}

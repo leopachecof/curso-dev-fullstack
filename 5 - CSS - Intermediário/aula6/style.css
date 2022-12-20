@@ -1,0 +1,54 @@
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}  /* (identifica movimentação do mouse e realiza o comando. Comando houver funciona pra qualquer tipo, inclusive imagem)*/
+
+/* (Já o visited e active só funciona pra o ancora)*/
+
+a:visited {
+   color: yellow; 
+}
+
+a:active {
+    color: pink;
+}
+
+a:hover + .caixa {
+    display: block;
+}
+
+.caixa {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+
+.caixa:hover {
+    background: green;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: rgb(94, 17, 139);
+}
+
+.exemplo p:first-child {
+    color: coral;
+}
+
+.exemplo p:last-child {
+    color: rgb(244, 28, 139);
+}
+
+.exemplo2 p:nth-child(5) {
+    color: rgb(7, 189, 240);
+}

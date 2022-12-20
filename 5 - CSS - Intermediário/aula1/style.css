@@ -1,0 +1,34 @@
+
+/*AULA DE SELETORES E COMBINADORES*/
+
+
+.exemplo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 4px 4px 8px rgb(152, 152, 154);
+}
+
+.exemplo1 .red {
+    color: red;
+} /*Pega várias class*/
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 {
+    color: blue;
+} /*Pega vários H's*/
+
+.exemplo2 > p {
+    color: blue;
+} /*Pega todos os filhos*/
+
+.exemplo3 + p {
+    color: red;
+} /*Pega o primeiro irmão*/
+
+.exemplo4 ~ p {
+    color: green;
+} /*Pega todos os irmãos*/
