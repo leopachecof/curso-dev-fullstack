@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="salvar.html" method="get">
+        <!-- O método get manda os dados para o end url-->
+        <!-- O método post manda os dados de maneira sigilosa (vamos ver no módulo Back-end)-->
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email"  name="email" id="email" placeholder="Digite o seu e-mail">
+
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+
+        <br><br>
+
+        <label for="color">Selecione a cor do seu nome:</label>
+        <input type="color" name="cor" id="color">
+
+        <br><br>
+
+        <!--USABILIDADE-->
+        <!--Aqui foi acrescentado o mesmo nome para não selecionar mais de um sexo-->
+        <!--Aqui foi acrescentado o value e valores diferenciados para o envio ir com a informação correta de qual sexo foi selecionado-->
+
+        <label for="">Sexo:</label>
+        <br>
+        <input type="radio" name="sexo" id="masculino" value="masculino"><label for="masculino">Masculino</label>
+        <br>
+        <input type="radio" name="sexo" id="feminino" value="feminino"><label for="feminino">Feminino</label>
+        <br>
+        <input type="radio" name="sexo" id="nao definido" value="nao definido"><label for="nao definido">Prefiro não informar</label>
+
+        <br><br>
+
+        <!--Foi incuido o mesmo valor em id e for, para que o checkbox possa ser escolhido além da caixinha, também clicando no nome-->
+        <!--Fiz a mesma coisa para o radio em cima no sexo-->
+
+        <label for="">Habilidades</label>
+        <br>
+        <input type="checkbox" name="habilidades" id="html" value="html"> <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" name="habilidades" id="css" value="css"> <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" name="habilidades" id="javascript" value="javascript"> <label
+            for="javascript">Javascript</label>
+
+        <br><br>
+
+        <label for="cidade:">Cidade:</label>
+        <br>
+        <select name="cidade" id="cidade">
+            <option value="" selected >-- Selecione --</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+        </select>
+
+        <br><br>
+
+        <label for="carro:">Carro:</label>
+        <br>
+        <select name="cidade" id="cidade">
+            <optgroup label="Honda">
+                <option value="civic">Civic</option>
+                <option value="fit">Fit</option>
+                <option value="city">City</option>
+            </optgroup>
+            <optgroup label="GM">
+                <option value="corsa">Corsa</option>
+                <option value="monza">Monza</option>
+                <option value="chevet">Chevete</option>
+            </optgroup>
+            <optgroup label="Wolkswagen">
+                <option value="fusca">Fusca</option>
+                <option value="gol">Gol</option>
+                <option value="polo">Polo</option>
+            </optgroup>
+
+          
+        </select>
+
+        <br><br>
+
+        <button>Enviar</button>
+        <!-- <input type="button" value="Enviar"> (Código antigo, foi substituido pelo de cima)-->
+    </form>
+
+
+</body>
+
+</html>
