@@ -1,0 +1,16 @@
+h1 {
+    color: var(--cor-primary);
+}
+
+h2 {
+    color: var(--cor-secondary);
+}
+
+p {
+    color: var(--cor-primary);
+}
+
+button {
+    background: var(--cor-primary);
+    color: white;
+}

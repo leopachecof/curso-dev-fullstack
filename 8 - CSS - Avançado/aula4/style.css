@@ -1,0 +1,39 @@
+/*
+Nesta aula falamos sobre responsividade e unidade de medidas, ex: 'em', rem, px, %, vw, vh
+
+REM é relativo ao root
+EM é relativo ao pai.
+
+vw viewport width (largura)
+vh viewport height (altura)
+eles froçam a por exemplo 100% da tela
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 5opx;
+}
+
+body {
+    font-size: 12px;
+}
+
+.box1 {
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+}
+
+.box2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(85, 85, 239);
+}
+
+p {
+    font-size: 1rem;
+}

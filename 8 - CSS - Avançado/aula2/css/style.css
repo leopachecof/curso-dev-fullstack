@@ -1,0 +1,12 @@
+
+/*O root ou raiz, serve para manter padrão de algumas diretrizes tornando prático qualquer mudança futura, onde reuni-se por exemplo onde alterar cor padão e até espaço. Muito útil para equipes de programadores e empresas com padrões de formatação.
+
+:root {
+    --cor-primary: rgb(52, 12, 197);
+    --cor-secondary: rgb(99, 26, 178);
+    --spacing: 16px;
+Obs: ele foi realocado na pag comuns para novo exemplo.
+*/
+
+@import "./comuns.css";
+@import "./variaveis.css";

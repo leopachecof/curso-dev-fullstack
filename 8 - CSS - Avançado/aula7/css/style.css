@@ -1,0 +1,47 @@
+/*
+
+*/
+
+body {
+    margin: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+ 
+    animation-name: minhaAnimacao;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes minhaAnimacao {
+    /*from {
+        background-color: black;
+    }
+
+    to {
+        background-color: red;
+        transform: rotate(360deg);
+    }
+    */
+    0% {
+        background-color: rgb(250, 250, 250);
+    }
+
+    
+    50% {
+        border: 20px solid rgb(239, 255, 21);
+        box-shadow: 0 10px 100px rgb(255, 255, 5);
+    }
+
+    100% {
+        background-color: rgb(254, 170, 25);
+        transform: rotate(360deg);
+        border: 0px solid rgb(249, 233, 50);
+    }
+}
